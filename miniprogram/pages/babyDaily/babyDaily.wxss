@@ -1,0 +1,46 @@
+.content .baby_item {
+  display: flex;
+  width: 100%;
+  border-bottom: 1rpx solid #ccc;
+}
+.content .baby_item .item_text {
+  width: 50%;
+}
+.pagechanged {
+  display: flex;
+}
+.pagechanged .page_item {
+  width: 48%;
+}
+.pagechanged .page_item .pre_item {
+  float: right;
+  width: 15%;
+  text-align: center;
+  padding: 15rpx 0;
+}
+.pagechanged .page_item .next_item {
+  float: left;
+  width: 15%;
+  text-align: center;
+  padding: 15rpx 0;
+}
+.pagechanged .id_item {
+  width: 4%;
+  text-align: center;
+  padding: 20rpx;
+}
+.pagechanged .id_item text {
+  width: 100%;
+}
+.ordertools {
+  display: flex;
+}
+.ordertools .order_item {
+  width: 33%;
+  padding: 10rpx;
+}
+.ordertools .order_item button {
+  width: 100%;
+  font-size: 30rpx;
+  font-weight: normal;
+}

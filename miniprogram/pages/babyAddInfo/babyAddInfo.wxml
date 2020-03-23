@@ -1,0 +1,12 @@
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<button bindtap="submit">点我弹窗</button>
+<view class="modalDlg" wx:if="{{showModal}}">
+    <text>新增~</text>
+    <view class="viewTempu">当前体温:</view>
+    <text class="inputTempu">20</text>
+    <button bindtap="go">确认</button>
+</view>
+
+<view class="add-wrap" hover-class="plus-hover">
+    <button bindtap="submit">点我弹窗</button>   
+</view>

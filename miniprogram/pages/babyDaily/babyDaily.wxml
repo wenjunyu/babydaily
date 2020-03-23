@@ -1,0 +1,75 @@
+<view class="content">
+    <view class="baby_item">
+        <view>ID:</view>
+        <text class="item_text">{{dailyItem.id}}</text>
+    </view>
+    <!-- <view class="baby_item">
+        <view>睡觉时长:</view>
+        <text class="item_text">{{dailyItem.sleep}}</text>
+    </view>
+    <view class="baby_item">
+        <view>哭闹时长:</view>
+        <text class="item_text">{{dailyItem.cry}}</text>
+    </view>
+    <view class="baby_item">
+        <view>喝水次数:</view>
+        <text class="item_text">{{dailyItem.drink}}</text>
+    </view>
+    <view class="baby_item">
+        <view>小便次数:</view>
+        <text class="item_text">{{dailyItem.Pee}}次</text>
+    </view>
+    <view class="baby_item">
+        <view>大便次数:</view>
+        <text class="item_text">{{dailyItem.excre}}次</text>
+    </view>
+    <view class="baby_item">
+        <view>洗澡时长:</view>
+        <text class="item_text">{{dailyItem.bathe}}</text>
+    </view>
+    <view class="baby_item">
+        <view>日期:</view>
+        <text class="item_text">{{dailyItem.Date}}</text>
+    </view>
+    <view class="baby_item">
+        <view>活动时长:</view>
+        <text class="item_text">{{dailyItem.do}}</text>
+    </view>
+    <view class="baby_item">
+        <view>母乳时长:</view>
+        <text class="item_text">{{dailyItem.lactic}}</text>
+    </view>
+    <view class="baby_item">
+        <view>牛奶时间:</view>
+        <text class="item_text">{{dailyItem.milk}}</text>
+    </view> -->
+    <view class="baby_item">
+        <view>体温:</view>
+        <view>时间:</view>
+        <text class="item_text">{{dailyItem.temperature}}</text>
+    </view>
+</view>
+<view class="pagechanged">
+    <view class="page_item">
+        <button class="pre_item">{{"<<"}}</button>
+    </view>
+    <view class="id_item">
+        <text>{{dailyItem.id+1}}</text>
+    </view>
+    <view class="page_item">
+        <button class="next_item">
+            {{">>"}}
+        </button>
+    </view>
+</view>
+<view class="ordertools">
+    <view class="order_item">
+        <button bindtap="getData" type="primary">获取数据</button>
+    </view>
+    <view class="order_item">
+        <button bindtap="frashData" type="primary">刷新数据</button>
+    </view>
+    <view class="order_item">
+        <button bindtap="newAddData" type="primary">新增记录</button>
+    </view>
+</view>
